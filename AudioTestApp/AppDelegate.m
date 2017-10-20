@@ -8,6 +8,14 @@
 
 #import "AppDelegate.h"
 
+#import <iflyMSC/IFlySpeechUtility.h>
+
+#if DEBUG
+
+#import <iflyMSC/IFlyDebugLog.h>
+
+#endif
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +25,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSString *xunfeiAPPID = [[NSString alloc] initWithFormat:@"appid=59e5d109"];
+    [IFlySpeechUtility createUtility:xunfeiAPPID];
+    
+#if DEBUG
+    
+    [IFlyDebugLog setShowLog:YES];
+    
+#endif
+    
     return YES;
 }
 

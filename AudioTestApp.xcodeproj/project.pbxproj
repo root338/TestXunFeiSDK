@@ -15,6 +15,19 @@
 		004556AE1F96083A002CB7F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 004556AD1F96083A002CB7F3 /* main.m */; };
 		004556B81F96083A002CB7F3 /* AudioTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004556B71F96083A002CB7F3 /* AudioTestAppTests.m */; };
 		004556C31F96083A002CB7F3 /* AudioTestAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004556C21F96083A002CB7F3 /* AudioTestAppUITests.m */; };
+		004556D21F960B43002CB7F3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 004556D11F960B42002CB7F3 /* libz.tbd */; };
+		004556D41F960B4A002CB7F3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004556D31F960B4A002CB7F3 /* AVFoundation.framework */; };
+		004556D61F960B54002CB7F3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004556D51F960B54002CB7F3 /* SystemConfiguration.framework */; };
+		004556D81F960B5C002CB7F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004556D71F960B5C002CB7F3 /* Foundation.framework */; };
+		004556DA1F960B64002CB7F3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004556D91F960B64002CB7F3 /* CoreTelephony.framework */; };
+		004556DC1F960B6E002CB7F3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004556DB1F960B6D002CB7F3 /* AudioToolbox.framework */; };
+		004556DE1F960B76002CB7F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004556DD1F960B76002CB7F3 /* UIKit.framework */; };
+		004556E01F960B7E002CB7F3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004556DF1F960B7D002CB7F3 /* CoreLocation.framework */; };
+		004556E21F960B88002CB7F3 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004556E11F960B88002CB7F3 /* Contacts.framework */; };
+		004556E41F960B8F002CB7F3 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004556E31F960B8F002CB7F3 /* AddressBook.framework */; };
+		004556E61F960B97002CB7F3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004556E51F960B96002CB7F3 /* QuartzCore.framework */; };
+		004556E81F960B9D002CB7F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004556E71F960B9C002CB7F3 /* CoreGraphics.framework */; };
+		004556EB1F960DBE002CB7F3 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004556EA1F960DBD002CB7F3 /* iflyMSC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,19 @@
 		004556BE1F96083A002CB7F3 /* AudioTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		004556C21F96083A002CB7F3 /* AudioTestAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioTestAppUITests.m; sourceTree = "<group>"; };
 		004556C41F96083A002CB7F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004556D11F960B42002CB7F3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		004556D31F960B4A002CB7F3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		004556D51F960B54002CB7F3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		004556D71F960B5C002CB7F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		004556D91F960B64002CB7F3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		004556DB1F960B6D002CB7F3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		004556DD1F960B76002CB7F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		004556DF1F960B7D002CB7F3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		004556E11F960B88002CB7F3 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		004556E31F960B8F002CB7F3 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		004556E51F960B96002CB7F3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		004556E71F960B9C002CB7F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		004556EA1F960DBD002CB7F3 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = AudioTestApp/Frameworks/iflyMSC.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004556E81F960B9D002CB7F3 /* CoreGraphics.framework in Frameworks */,
+				004556E61F960B97002CB7F3 /* QuartzCore.framework in Frameworks */,
+				004556E41F960B8F002CB7F3 /* AddressBook.framework in Frameworks */,
+				004556E21F960B88002CB7F3 /* Contacts.framework in Frameworks */,
+				004556E01F960B7E002CB7F3 /* CoreLocation.framework in Frameworks */,
+				004556DE1F960B76002CB7F3 /* UIKit.framework in Frameworks */,
+				004556DC1F960B6E002CB7F3 /* AudioToolbox.framework in Frameworks */,
+				004556DA1F960B64002CB7F3 /* CoreTelephony.framework in Frameworks */,
+				004556D81F960B5C002CB7F3 /* Foundation.framework in Frameworks */,
+				004556D61F960B54002CB7F3 /* SystemConfiguration.framework in Frameworks */,
+				004556D41F960B4A002CB7F3 /* AVFoundation.framework in Frameworks */,
+				004556D21F960B43002CB7F3 /* libz.tbd in Frameworks */,
+				004556EB1F960DBE002CB7F3 /* iflyMSC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +124,7 @@
 				004556B61F96083A002CB7F3 /* AudioTestAppTests */,
 				004556C11F96083A002CB7F3 /* AudioTestAppUITests */,
 				0045569C1F96083A002CB7F3 /* Products */,
+				004556D01F960B42002CB7F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +170,26 @@
 				004556C41F96083A002CB7F3 /* Info.plist */,
 			);
 			path = AudioTestAppUITests;
+			sourceTree = "<group>";
+		};
+		004556D01F960B42002CB7F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				004556EA1F960DBD002CB7F3 /* iflyMSC.framework */,
+				004556E71F960B9C002CB7F3 /* CoreGraphics.framework */,
+				004556E51F960B96002CB7F3 /* QuartzCore.framework */,
+				004556E31F960B8F002CB7F3 /* AddressBook.framework */,
+				004556E11F960B88002CB7F3 /* Contacts.framework */,
+				004556DF1F960B7D002CB7F3 /* CoreLocation.framework */,
+				004556DD1F960B76002CB7F3 /* UIKit.framework */,
+				004556DB1F960B6D002CB7F3 /* AudioToolbox.framework */,
+				004556D91F960B64002CB7F3 /* CoreTelephony.framework */,
+				004556D71F960B5C002CB7F3 /* Foundation.framework */,
+				004556D51F960B54002CB7F3 /* SystemConfiguration.framework */,
+				004556D31F960B4A002CB7F3 /* AVFoundation.framework */,
+				004556D11F960B42002CB7F3 /* libz.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -432,7 +492,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29W9687J6A;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AudioTestApp/Frameworks",
+				);
 				INFOPLIST_FILE = AudioTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuemei.AudioTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,7 +512,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29W9687J6A;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AudioTestApp/Frameworks",
+				);
 				INFOPLIST_FILE = AudioTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuemei.AudioTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
